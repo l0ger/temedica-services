@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  front:
+    build: ./temedica
+    ports:
+      - "5000:3000"
+  backend:
+    build: ./express-server
+    ports:
+      - "3005:3005"

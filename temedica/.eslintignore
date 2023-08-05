@@ -1,0 +1,8 @@
+.prettierrc.js
+.eslintrc.js
+node_modules/
+.idea
+.next
+.env
+next-env.d.ts
+README.md
